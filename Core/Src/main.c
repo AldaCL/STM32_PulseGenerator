@@ -171,7 +171,7 @@ int main(void)
 		  press = !press;
 
 		  if(press){
-			  TIM1->CNT = printDD*4;
+			  TIM1->CNT = mess*4;
 		  		  }else{
 		  			TIM1->CNT =freq*4;
 		  		  }
